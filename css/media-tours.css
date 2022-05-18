@@ -1,0 +1,153 @@
+@media (max-width:2561px){
+   
+    .hide-header {
+        display: none;
+    }
+    .hide-header ul{
+      display: none;
+    }
+}
+@media (max-width:1127px){
+   
+    .main-header {
+        grid-template-columns:10% 90%;
+    }
+    .main-header nav {
+        display: grid;
+        grid-column: 2/4;
+    }
+    
+    .header-navigation ul li {
+        padding-left: 30px;
+    }
+  
+}
+
+@media (max-width:1025px){
+    
+    .header-navigation ul li {
+        padding-left:19px; 
+ }
+}
+@media (max-width : 992px) {
+    
+    .hotels h1{      
+        font-size: 25px;
+    }
+    .list-content  h2{
+        font-size: 25px;
+    }
+    .row-content h2{
+        font-size: 25px;
+    }
+    .row-content h3{
+        font-size: 20px;
+    }
+    .row-content p {
+        font-size: 15px;
+    }
+    footer h2{
+        font-size: 25px;
+    }
+    footer ul li {
+        font-size: 15px;
+    }
+   
+}
+@media (max-width : 769px) {
+    .hide-header {
+        display: grid;
+    }
+    
+    .header-navigation-hide{
+        display: grid;
+    }
+    .header-logo {
+        justify-self: end;
+        margin-right: 25px;
+    }
+    .main-header {
+        display: none;
+    }
+    .header-logo ul li {
+        padding: 15px;
+        margin-right: 100px;
+        font-size: 20px;
+        list-style: none;
+    }
+
+    .header-logo:hover ul {
+        margin: 0px;
+        padding: 0px;
+        
+        background-color: rgba(0, 0, 0, 0.7);
+      
+        display: block;
+        position: absolute;
+        right: 1px;
+        
+    }
+    .list-content {
+        grid-gap: 150px;
+    }
+    
+    header img {
+        max-width: 60px;
+        max-height:60px;
+    }
+    .hotels {
+        min-height: 500px;
+    }
+    .row {
+        margin: 20px;
+    }
+    
+    .footer-container  {
+        min-height: 45px;
+    }
+    
+    footer {
+        min-height: 300px;
+    }
+    .list {
+        min-height: 1500px;
+    }
+    
+}
+@media (max-width : 576px) {
+    
+    .footer-container  {
+        min-height: 35px;
+   }
+   
+ 
+   
+}
+@media (max-width : 426px) {
+    .row{
+    grid-template-columns: repeat(1,1fr);
+    grid-gap:1px;
+    }
+    .hotels {
+        min-height: 350px;
+    }
+    footer {
+        min-height: 260px;
+    }
+    footer ul{
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .list-content {
+        grid-gap: 20px;
+    }
+    .hide-header i::before {
+        font-size:45px;
+
+    }
+}
+@media(max-width:321px){
+    .list-content {
+        grid-gap: 100px;
+    }
+}

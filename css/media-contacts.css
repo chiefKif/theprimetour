@@ -1,0 +1,139 @@
+@media (max-width:2561px){
+   
+    .hide-header {
+        display: none;
+    }
+    .hide-header ul{
+      display: none;
+    }
+}
+@media (max-width:1127px){
+   
+    .main-header {
+        grid-template-columns:10% 90%;
+    }
+    .main-header nav {
+        display: grid;
+        grid-column: 2/4;
+    }
+    
+    .header-navigation ul li {
+        padding-left: 30px;
+    }
+  
+}
+@media (max-width:1025px){
+    .contacts {
+        background-image: url(../image/contacts/c1.png);
+    }
+    .header-navigation ul li {
+        padding-left:19px; 
+ }
+}
+@media (max-width : 992px) {
+    
+    
+    .contacts{
+        min-height: 400px;
+    }
+    footer {
+        min-height: 300px;
+    }
+    .column h2{
+        font-size: 25px;
+    
+    
+    }
+    .column p {
+        font-size: 20px;
+    }
+    footer h2{
+        font-size:25px;
+    }
+    footer ul li {
+        font-size: 15px;
+    }
+}
+@media (max-width : 769px) {
+    .hide-header {
+        display: grid;
+    }
+    
+    .header-navigation-hide{
+        display: grid;
+    }
+    .header-logo {
+        justify-self: end;
+        margin-right: 25px;
+    }
+    .main-header {
+        display: none;
+    }
+    .header-logo ul li {
+        padding: 15px;
+        margin-right: 100px;
+        font-size: 20px;
+        list-style: none;
+    }
+
+    .header-logo:hover ul {
+        margin: 0px;
+        padding: 0px;
+        
+        background-color: rgba(0, 0, 0, 0.7);
+      
+        display: block;
+        position: absolute;
+        right: 1px;
+        
+    }
+    
+    .footer-container  {
+        min-height: 45px;
+    }
+   
+    .column h2{
+        font-size: 20px;
+    
+    
+    }
+    .column p {
+        font-size: 15px;
+    }
+    footer h2{
+        font-size:20px;
+    }
+    footer ul li {
+        font-size: 15px;
+    }
+    .info-content {
+        grid-template-columns: 1fr;
+    }
+
+}
+@media (max-width:426px){
+    .contacts{
+        min-height:230px;
+    }
+    footer {
+        min-height: 260px;
+    }
+    
+}
+@media (max-width:576px){
+   
+    .footer-container  {
+        min-height: 35px;
+   }
+   
+   footer ul {
+       
+       margin-top: 40px;
+       margin-left: 10px;
+   }
+}
+@media (max-width:321px){
+    .contacts {
+        min-height: 250px;
+    }
+}

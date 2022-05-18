@@ -1,0 +1,165 @@
+@media (max-width:2561px){
+   
+    .hide-header {
+        display: none;
+    }
+    .hide-header ul{
+      display: none;
+    }
+}
+@media (max-width:1127px){
+   
+    .main-header {
+        grid-template-columns:10% 90%;
+    }
+    .main-header nav {
+        display: grid;
+        grid-column: 2/4;
+    }
+    
+    .header-navigation ul li {
+        padding-left: 30px;
+    }
+  
+}
+
+@media (max-width:1025px){
+ 
+   .header-navigation ul li {
+    padding-left:19px; 
+}
+}
+@media (max-width : 992px) {
+   
+    
+   .kailua h1{
+    font-size: 25px;
+    
+}
+.content-introductory h2{
+    font-size: 25px;   
+}
+.content-attraction h2{
+    font-size: 25px;
+   
+}
+.column div h3 {
+    font-size: 20px;
+}
+.column-attraction div h3{
+    font-size: 20px;
+}
+.column-attraction div p {
+    font-size: 15px;
+}
+.column div p {
+    font-size: 15px;
+}
+.content-attraction button{
+    
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.column {
+
+    grid-template-columns: repeat(1,1fr);
+    max-width: 400px;
+    grid-gap: 20px;
+    
+}
+.column-attraction {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    max-width: 400px;
+    grid-gap: 20px;
+}
+.column-attraction .vision-div {
+    display: none;
+
+}
+.hide-div {
+    display: block;
+}
+footer h2{
+    font-size: 25px;
+}
+footer ul li {
+    font-size: 15px;
+}
+}
+@media (max-width : 769px) {
+    .content-attraction button {
+        min-height: 32px;
+        min-width: 112px;
+    }
+    .hide-header {
+        display: grid;
+    }
+    
+    .header-navigation-hide{
+        display: grid;
+    }
+    .header-logo {
+        justify-self: end;
+        margin-right: 25px;
+    }
+    .main-header {
+        display: none;
+    }
+    .header-logo ul li {
+        padding: 15px;
+        margin-right: 100px;
+        font-size: 20px;
+        list-style: none;
+    }
+
+    .header-logo:hover ul {
+        margin: 0px;
+        padding: 0px;
+        
+        background-color: rgba(0, 0, 0, 0.7);
+      
+        display: block;
+        position: absolute;
+        right: 1px;
+        
+    }
+    .content-attraction h2{
+        margin-bottom: 0px;
+      margin-top: 80px;
+    }
+}
+@media (max-width : 576px) {
+
+    
+    .footer-container  {
+        min-height: 35px;
+   }
+   
+  
+
+}
+@media (max-width : 426px) {
+    footer ul{
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .kailua {
+        min-height: 400px;
+    }
+    footer {
+        min-height: 300px;
+    }
+    .hide-header i::before {
+        font-size:45px;
+
+    }
+}
+@media(max-width:321px){
+    .kailua {
+        min-height:350px;
+    }
+footer {
+    min-height: 260px;
+}
+}

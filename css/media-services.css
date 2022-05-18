@@ -1,0 +1,285 @@
+@media (max-width:2561px){
+   
+    .hide-header {
+        display: none;
+    }
+    .hide-header ul{
+      display: none;
+    }
+}
+@media (max-width:1127px){
+   
+    .main-header {
+        grid-template-columns:10% 90%;
+    }
+    .main-header nav {
+        display: grid;
+        grid-column: 2/4;
+    }
+    
+    .header-navigation ul li {
+        padding-left: 30px;
+    }
+  
+}
+
+@media (max-width:1025px){
+    
+    .header-navigation ul li {
+        padding-left:19px; 
+ }
+}
+
+@media (max-width : 992px) {
+    
+    
+    .services h1{
+        
+        font-size: 25px;
+        
+        
+    }
+    
+    .guides-column {
+        margin-top:50px;
+        margin-bottom: 50px;
+        grid-template-columns: 1fr;
+        grid-gap: 70px;
+    }
+    .visa-content h2 {
+        font-size: 25px;
+    }
+    .visa-content h3{
+        font-size: 20px;
+    }
+    .visa-content p{
+        font-size: 15px;
+    }
+    .guides-content > h2{
+        font-size: 25px;
+    }
+    .ticket h2{
+        font-size: 25px;
+       
+    }
+    .ticket-row h3{
+        font-size: 20px;
+    }
+    .ticket-row p {
+        font-size: 15px;
+    }
+    .webpay-content h3 {
+        padding: 0px;
+        font-size: 20px;
+    }
+    .webpay-content h2{
+        font-size: 25px;
+    }
+    .webpay-content p {
+        font-size: 15px;
+    
+    }
+    footer ul li {
+       
+        font-size: 15px;
+    }
+    footer h2{
+        
+        font-size: 25px;
+    }
+    
+    .ticket-row button {
+        min-height: 30px;
+        min-width: 110px;
+    }
+}
+@media (max-width : 769px) {
+    .hide-header {
+        display: grid;
+    }
+    
+    .header-navigation-hide{
+        display: grid;
+    }
+    .header-logo {
+        justify-self: end;
+        margin-right: 25px;
+    }
+    .main-header {
+        display: none;
+    }
+    .header-logo ul li {
+        padding: 15px;
+        margin-right: 100px;
+        font-size: 20px;
+        list-style: none;
+    }
+
+    .header-logo:hover ul {
+        margin: 0px;
+        padding: 0px;
+        
+        background-color: rgba(0, 0, 0, 0.7);
+      
+        display: block;
+        position: absolute;
+        right: 1px;
+        
+    }
+    .services h1{
+        
+        font-size: 20px;
+        
+            }
+            
+   
+    
+    .footer-container  {
+        min-height: 45px;
+    }
+    
+    .column {
+    min-height: 200px;
+    min-width: 150px;
+    }
+    .column img {
+        min-width: 150px;
+        max-width: 100%;
+    }
+    .visa-content h2 {
+        font-size: 20px;
+    }
+    .visa-content h3{
+        font-size: 15px;
+    }
+    .visa-content p{
+        font-size: 15px;
+    }
+    .guides-content > h2{
+        font-size: 20px;
+    }
+    .ticket h2{
+        font-size: 20px;
+       
+    }
+    .ticket-row h3{
+        font-size: 15px;
+    }
+    .ticket-row p {
+        font-size: 15px;
+    }
+    .webpay-content h3 {
+        padding: 0px;
+        font-size: 15px;
+    }
+    .webpay-content h2{
+        font-size: 20px;
+    }
+    .webpay-content p {
+        font-size: 15px;
+    
+    }
+    footer ul li {
+       
+        font-size: 15px;
+    }
+    footer h2{
+        
+        font-size: 25px;
+    }
+    .column button {
+        min-height: 32px;
+        min-width: 112px;
+    }
+    .ticket-row button {
+        min-height: 32px;
+        min-width: 112px;
+    }
+    .services {
+        min-height: 500px;
+    }
+    .visa-support {
+        min-height:550px;
+    }
+    .webpay {
+        min-height:650px;
+    }
+
+}
+@media (max-width : 576px) {
+    .services {
+        min-height: 350px;
+    }
+    footer {
+        min-height:260px;
+    }
+    .guides-content{
+        display: grid;
+       
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    
+    
+.footer-container  {
+    min-height: 35px;
+}
+
+    .visa-content {
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .webpay-content {
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    footer h2{
+        margin-top: 40px;
+        
+      
+    }
+    footer ul {
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    
+    
+}
+@media (max-width : 426px) {
+    .hide-header i::before {
+        font-size:45px;
+
+    }
+
+    .visa-content h3 {
+        padding-left: 5px;
+    }
+    .visa-content p {
+        padding-left: 5px;
+    }
+    .ticket-row p,h3{
+        padding-left: 5px;
+    }
+    .column {
+        min-height: 100px;
+        min-width: 100x;
+        max-width: 100px;
+        }
+        .column h2 {
+            font-size:15px;
+        }
+        .column h3{
+            font-size:12px;
+        }
+        .column img {
+            min-width: 100px;
+            max-width: 100%;
+        }
+        .ticket {
+            
+            grid-gap: 50px;
+            
+            
+        }
+  }
+  

@@ -1,0 +1,244 @@
+@font-face {
+  font-family: "Fira-sans-extraLigth";
+  src: local("Fira-sans-extraLigth"), url(../fonts/FiraSans-ExtraLight.ttf);
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Fira-sans-extraLigth";
+}
+
+header {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(0, 0, 0, 0.7);
+  max-height: 70px;
+}
+
+.header-navigation ul li a:hover {
+  border-bottom: 1px solid white;
+}
+
+.header-logo ul li a:hover {
+  border-bottom: 1px solid white;
+}
+
+.header-logo img {
+  min-height: 49px;
+  max-width: 49px;
+  margin-top: 8px;
+}
+
+.header-logo:hover ul {
+  display: block;
+}
+
+.header-navigation {
+  display: -ms-grid;
+  display: grid;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header img {
+  min-height: 60px;
+  max-width: 60px;
+  margin-left: 20px;
+  margin-top: 3px;
+}
+
+.header-navigation ul {
+  -ms-grid-column-align: end;
+      justify-self: end;
+  margin-top: 24px;
+  list-style: none;
+  color: white;
+  margin-right: 25px;
+}
+
+.header-navigation ul li {
+  display: inline;
+  padding-left: 35px;
+  font-family: "Fira-sans-extraLigth";
+  font-size: 20px;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.graduated-tour {
+  display: -ms-grid;
+  display: grid;
+  min-height: 690px;
+  border-bottom: 3px solid black;
+  background-image: url("../image/main/gr14.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.graduated-info {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.graduated-info h1, p {
+  text-align: center;
+  color: white;
+}
+
+.graduated-info h1 {
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.graduated-info p {
+  font-size: 25px;
+  opacity: 92%;
+}
+
+.graduated-info button {
+  border-color: rgba(255, 255, 255, 0);
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  min-height: 40px;
+  min-width: 150px;
+  background-color: rgba(91, 214, 214, 0.6);
+}
+
+.graduated-info button span {
+  color: white;
+  font-weight: lighter;
+}
+
+.bring-emotions {
+  background-image: url("../image/main/bring-emotions.png");
+  min-height: 600px;
+  border-bottom: 3px solid black;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bring-info {
+  margin-top: 150px;
+  margin-left: 70px;
+}
+
+.bring-info h2 {
+  color: white;
+  font-size: 30px;
+}
+
+.bring-info .bring-content {
+  color: white;
+}
+
+.bring-content {
+  font-size: 20px;
+}
+
+.bring-content {
+  max-width: 600px;
+}
+
+.services {
+  display: -ms-grid;
+  display: grid;
+  min-height: 600px;
+  border-bottom: 3px solid black;
+}
+
+.services-info {
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.services-info h2 {
+  font-size: 30px;
+}
+
+.services-row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 60px 1fr 60px 1fr 60px 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 60px;
+}
+
+.services-info h2 {
+  text-align: center;
+  margin-bottom: 85px;
+  margin-top: 60px;
+}
+
+.row img {
+  width: 200px;
+  max-width: 100%;
+}
+
+.row h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+footer {
+  min-height: 400px;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+footer h2 {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 30px;
+}
+
+footer ul {
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+footer ul li {
+  padding: 8px;
+  font-size: 20px;
+}
+
+.footer-container {
+  min-height: 50px;
+  background-color: black;
+  border: 1px solid black;
+  min-width: 99.8%;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-container img {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  min-height: 60px;
+  max-width: 60px;
+}

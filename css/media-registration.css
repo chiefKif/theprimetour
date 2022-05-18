@@ -1,0 +1,37 @@
+@media (max-width:551px){
+    body {
+        grid-row-gap:40px;
+    }
+    body h1{
+        font-size: 25px;
+    }
+    form {
+        margin-right: 30px;
+    }
+    form label {
+       font-size: 20px;
+    }
+    form input {
+        min-width: 200px;
+    }
+    form button {
+        
+        left: 81%;
+        min-height: 32px;
+        min-width: 112px;
+        
+    }
+}
+@media (max-width:393px){
+    form label {
+        text-align: left;
+        
+    }
+    form button {
+       
+        left: 53%;
+        
+        
+    }
+    
+}

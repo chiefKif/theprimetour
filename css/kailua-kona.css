@@ -1,0 +1,266 @@
+@font-face {
+  font-family: "Fira-sans-extraLigth";
+  src: local("Fira-sans-extraLigth"), url(../fonts/FiraSans-ExtraLight.ttf);
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Fira-sans-extraLigth";
+}
+
+button {
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+}
+
+.header-logo img {
+  min-height: 49px;
+  max-width: 49px;
+  margin-top: 8px;
+}
+
+.header-logo:hover ul {
+  display: block;
+}
+
+header {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  max-height: 70px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-navigation ul li a:hover {
+  border-bottom: 1px solid white;
+}
+
+.header-logo ul li a:hover {
+  border-bottom: 1px solid white;
+}
+
+.header-navigation {
+  display: -ms-grid;
+  display: grid;
+}
+
+.header-navigation ul {
+  margin-top: 24px;
+  list-style: none;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  color: white;
+  margin-right: 25px;
+}
+
+.header-navigation ul li {
+  display: inline;
+  padding-left: 35px;
+  font-family: "Fira-sans-extraLigth";
+  font-size: 20px;
+}
+
+header img {
+  min-height: 60px;
+  max-width: 60px;
+  margin-left: 20px;
+  margin-top: 3px;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.kailua {
+  display: -ms-grid;
+  display: grid;
+  min-height: 600px;
+  border-bottom: 3px solid black;
+  background-image: url(../image/kailua-kona/Kailua-kona.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kailua h1 {
+  font-size: 30px;
+  font-weight: lighter;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: white;
+}
+
+.introductory {
+  min-height: 650px;
+}
+
+.content-introductory {
+  display: -ms-grid;
+  display: grid;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.content-introductory h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.column {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 250px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1000px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-grid-row-align: center;
+      align-self: center;
+  grid-gap: 250px;
+}
+
+.column div h3 {
+  font-size: 25px;
+}
+
+.column div p {
+  font-size: 20px;
+}
+
+.column img {
+  width: 600px;
+  max-width: 100%;
+  margin-top: 25px;
+}
+
+.column div {
+  border-bottom: 1px solid black;
+}
+
+.attraction {
+  min-height: 1850px;
+  border-bottom: 3px solid black;
+}
+
+.content-attraction {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 120px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.content-attraction h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.column-attraction {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 250px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1000px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-grid-row-align: center;
+      align-self: center;
+  grid-gap: 250px;
+}
+
+.column-attraction div h3 {
+  font-size: 25px;
+}
+
+.column-attraction div p {
+  font-size: 20px;
+}
+
+.column-attraction img {
+  width: 600px;
+  max-width: 100%;
+  margin-top: 25px;
+}
+
+.column-attraction div {
+  border-bottom: 1px solid black;
+}
+
+.content-attraction button {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  min-height: 40px;
+  min-width: 150px;
+  max-width: 150px;
+}
+
+footer {
+  min-height: 400px;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+footer h2 {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 30px;
+}
+
+footer ul {
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+footer ul li {
+  padding: 8px;
+  font-size: 20px;
+}
+
+.footer-container {
+  min-height: 50px;
+  background-color: black;
+  border: 1px solid black;
+  min-width: 99.8%;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-container img {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  min-height: 60px;
+  max-width: 60px;
+}
+
+.hide-div {
+  display: none;
+}
