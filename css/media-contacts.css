@@ -23,9 +23,7 @@
   
 }
 @media (max-width:1025px){
-    .contacts {
-        background-image: url(../image/contacts/c1.png);
-    }
+    
     .header-navigation ul li {
         padding-left:19px; 
  }
@@ -109,11 +107,14 @@
     .info-content {
         grid-template-columns: 1fr;
     }
+    .contacts{
+        min-height:500px;
+    }
 
 }
 @media (max-width:426px){
     .contacts{
-        min-height:230px;
+        min-height:350px;
     }
     footer {
         min-height: 260px;
