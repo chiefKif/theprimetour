@@ -403,3 +403,7 @@ footer ul li {
   min-height: 60px;
   max-width: 60px;
 }
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}

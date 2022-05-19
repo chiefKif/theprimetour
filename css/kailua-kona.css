@@ -264,3 +264,7 @@ footer ul li {
 .hide-div {
   display: none;
 }
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
